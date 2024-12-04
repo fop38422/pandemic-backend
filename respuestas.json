@@ -1,0 +1,35 @@
+{
+  "Login": {
+    "success": {
+      "status": "success",
+      "message": "Se logueó correctamente a: usuario"
+    },
+    "error": {
+      "status": "error",
+      "message": "No se logró iniciar sesión: usuario"
+    }
+  },
+  "Register": {
+    "success": {
+      "status": "success",
+      "message": "Se insertó correctamente a: usuario"
+    },
+    "error": {
+      "status": "error",
+      "message": "No se logró registrar al usuario: usuario"
+    }
+  },
+  "MostrarUsuarios": {
+    "success": {
+      "status": "success",
+      "data": [
+        { "id": 1, "nombre": "Usuario1" },
+        { "id": 2, "nombre": "Usuario2" }
+      ]
+    },
+    "error": {
+      "status": "error",
+      "message": "No se pudo recuperar la lista de usuarios"
+    }
+  }
+}
